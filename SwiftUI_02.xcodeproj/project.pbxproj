@@ -14,6 +14,7 @@
 		54951E95271A0C1B00AAD936 /* SwiftUI_02Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54951E94271A0C1B00AAD936 /* SwiftUI_02Tests.swift */; };
 		54951E9F271A0C1B00AAD936 /* SwiftUI_02UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54951E9E271A0C1B00AAD936 /* SwiftUI_02UITests.swift */; };
 		54951EA1271A0C1B00AAD936 /* SwiftUI_02UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54951EA0271A0C1B00AAD936 /* SwiftUI_02UITestsLaunchTests.swift */; };
+		54E68B472728518600C5FE51 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E68B462728518600C5FE51 /* SoundPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		54951E9A271A0C1B00AAD936 /* SwiftUI_02UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUI_02UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54951E9E271A0C1B00AAD936 /* SwiftUI_02UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_02UITests.swift; sourceTree = "<group>"; };
 		54951EA0271A0C1B00AAD936 /* SwiftUI_02UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_02UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		54E68B462728518600C5FE51 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				54951E83271A0C1900AAD936 /* SwiftUI_02App.swift */,
 				54951E85271A0C1900AAD936 /* ContentView.swift */,
+				54E68B462728518600C5FE51 /* SoundPlayer.swift */,
 				54951E87271A0C1B00AAD936 /* Assets.xcassets */,
 				54951E89271A0C1B00AAD936 /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				54951E86271A0C1900AAD936 /* ContentView.swift in Sources */,
+				54E68B472728518600C5FE51 /* SoundPlayer.swift in Sources */,
 				54951E84271A0C1900AAD936 /* SwiftUI_02App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
